@@ -1,0 +1,207 @@
+﻿body {
+    background: url('../bilder/questionmark.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 2vw;
+    overflow-y: scroll;
+}
+
+#overskrift {
+    color: #F7F7F7;
+    font-weight: bold;
+    font-size: 5vh;
+}
+
+#root {
+    width: 100%;
+    margin: 2vw 0;
+}
+
+.tab-content {
+    width: 100%;
+}
+
+#faqDiv {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#footer {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#katDiv {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.accordionToggle {
+    display: inline-block;
+}
+
+.accordionToggle.card-header {
+    height: 13vh;
+    width: 45vw;
+}
+
+.accordionToggle span {
+    position: absolute;
+    top: 4vh;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.collapse.card-body span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kategori.card-header {
+    height: 13vh;
+    width: 50vw;
+    background: #DEDEDE;
+    display: inline-block;
+}
+
+.kategori span {
+    position: absolute;
+    top: 3.5vh;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.kategori img {
+    height: 3vh;
+    width: auto;
+    top: 5vh;
+    right: 4.5vh;
+    position: absolute;
+    display: inline-block;
+    margin: auto;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.ratingArrows {
+    height: 13vh;
+    width: auto;
+    background-color: #F7F7F7;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 0 1.5vw;
+}
+
+.ratingArrows img {
+    height: 5vh;
+    width: auto;
+}
+
+.ratingArrows span {
+    font-weight: bold;
+}
+
+p {
+    color: #F7F7F7;
+}
+
+a {
+    font-size: 2vh;
+    padding: 2vw;
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    margin-bottom: 3vh;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    background-color: #666666;
+    border-radius: 5px;
+    margin-right: 0.5vw;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link.active {
+    background-color: #333333;
+}
+
+#forslagDiv {
+    margin: 0;
+}
+
+#navn {
+    height: 4vh;
+    width: 20vw;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    resize: none;
+}
+
+#epost {
+    height: 4vh;
+    width: 20vw;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    resize: none;
+}
+
+#spørsmål {
+    vertical-align: top;
+    height: 11vh;
+    width: 30vw;
+    resize: none;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+}
+
+.feil {
+    color: red;
+    font-weight: bold;
+    position: relative;
+    margin-left: 0.5vw;
+    vertical-align: top;
+    text-shadow: 0px 0px 5px #000000;
+}
+
+#knappSendInn {
+    font-weight: bold;
+}
+
+.forslagSpørsmål {
+    width: 100%;
+    margin: 1vw auto;
+}
+
+.listeDiv {
+    display: inline-block;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666666;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
